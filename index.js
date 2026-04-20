@@ -264,11 +264,4 @@ app.post("/movies/:movieId", async (req, res) => {
   }
 });
 
-// const PORT = 3000;
-// app.listen(PORT, () => {
-//   console.log(`Server is running on ${PORT}`);
-// });
-
-// MONGODB=mongodb://neoGStudent:fishandrice@ac-yismjmv-shard-00-00.xdk10xh.mongodb.net:27017,ac-yismjmv-shard-00-01.xdk10xh.mongodb.net:27017,ac-yismjmv-shard-00-02.xdk10xh.mongodb.net:27017/?ssl=true&replicaSet=atlas-desq39-shard-0&authSource=admin&appName=neoG
-
 module.exports = app;
